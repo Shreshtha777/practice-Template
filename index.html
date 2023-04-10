@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            width: 70%;
+            margin: 0 auto;
+        }
+        header {
+            border: 1px solid gray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            /* border: 1px solid red; */
+            position: relative;
+            width: 50%;
+            height: 71px;
+            left: 6px;
+            top: 5px;
+        }
+
+        img {
+            width: 23%;
+            height: 68%;
+            left: 76px;
+            top: 7px;
+        }
+
+        nav {
+            /* border: 1px solid black;  */
+            display: flex;
+            /* margin-right: -157px; */
+
+        }
+
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+            font-size: 20px;
+        }
+
+        li a {
+            /* border: 1px solid red;  */
+            margin: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: rgb(125, 116, 116);
+        }
+
+        /* li:hover {
+            background-color: #F84E8B;
+            position: absolute;
+            width: 10px;
+            height: 40px;
+
+        } */
+
+        .right a {
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            color: #e4e1e1;
+            width: 200px
+        }
+
+
+
+        .btn {
+            /* width: 200px;
+            height: 10px; */
+            background: #C82459;
+            box-shadow: 0px 2px 2px #F5F5F5;
+            border-radius: 20px;
+            font-size: 25px;
+            padding: 20px;
+            text-decoration: none;
+            color: white;
+            margin-top: 4px;
+            justify-items: center;
+
+            bottom: 0px;
+        }
+
+
+
+        /* button {
+
+            background-color: yellowgreen;
+            color: rgb(235, 230, 230);
+            width: 1198px;
+            height: 40px;
+            margin-right: 20px;
+            border-radius: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 20px;
+            box-shadow: 0px 2px 2px #130f0f;
+        }
+        .button:hover {
+            background-color: palevioletred;
+        } */
+        .Banner img {
+
+            width: 100%;
+            height: 200px;
+        }
+
+        .row {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .row img {
+            width: 100%;
+
+        }
+
+        .row div {}
+
+        .row .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            padding-left: 20px;
+
+        }
+
+        .btn-green {
+
+            border-radius: 20px;
+            background-color: rgb(13, 215, 13);
+            font-size: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px 15px;
+            text-decoration: none;
+            box-shadow: 2px 2px 5px 1px gray;
+        }
+        .card-row{
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .card{
+            border: 1px solid gray;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: space-between;
+
+        }
+        .card img{
+            width: 100%;
+        }
+        footer{
+            background-color:#E3BABA;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer div{
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+    <header>
+        <div class="logo">
+            <img src="./images/Logo.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <div class="right">
+            <a href="#" class="btn">login</a>
+        </div>
+
+    </header>
+    <main>
+        <div class="Banner">
+            <img src="./images/gJtDg6WfMlQ.png">
+        </div>
+        <div class="row">
+            <div class="">
+                <img src="./images/IKaFDABbfFY.png">
+            </div>
+            <div class="content">
+
+                <h1>Juice and Fruits</h1>
+                <p>
+                    lorem ipsum dolar sit emet lorem ipsum dolar sit emetlorem ipsum dolar sit emetlorem ipsum dolar sit
+                    emetlorem ipsum dolar sit emetlorem ipsum dolar sit emetlorem ipsum dolar sit emetlorem ipsum dolar
+                    sit emetlorem ipsum dolar sit emet.
+                </p>
+                <a class="btn-green" href="#">Get diet plane</a>
+
+            </div>
+        </div>
+        <div class="card-row">
+            <div class="card">
+                <img src="./images/Rectangle 7.png">
+                <h1>Juice and Fruits</h1>
+                <p>
+                    lorem ipsum dolar sit emet lorem ipsum dolar sit emetlorem ipsum dolar sit emetlorem ipsum dolar sit
+                    emetlorem ipsum dolar sit .
+                </p>
+                <a class="btn-green" href="#">Get diet plane</a>
+
+            </div>
+            <div class="card">
+                <img src="./images/Rectangle 7.png">
+                <h1>Juice and Fruits</h1>
+                <p>
+                    lorem ipsum dolar sit emet lorem ipsum dolar sit emetlorem ipsum dolar sit emetlorem ipsum dolar sit
+                    emetlorem ipsum dolar sit .
+                </p>
+                <a class="btn-green" href="#">Get diet plane</a>
+
+            </div>
+            <div class="card">
+                <img src="./images/Rectangle 7.png">
+                <h1>Juice and Fruits</h1>
+                <p>
+                    lorem ipsum dolar sit emet lorem ipsum dolar sit emetlorem ipsum dolar sit emetlorem ipsum dolar sit
+                    emetlorem ipsum dolar sit .
+                </p>
+                <a class="btn-green" href="#">Get diet plane</a>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+<div>
+    <img src="images/Logo.png" alt="">
+    <p>copyright@shreshthaindoriya 2023</p>
+</div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js">
+    </script>
+</div>
+</body>
+
+</html>
